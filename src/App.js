@@ -36,17 +36,20 @@ const useStyles = createUseStyles(() => {
 			gap: "8px",
 		},
 		social: {
-			width: "64px",
+			width: "46px",
+			"@media (min-width: 769px)": {
+				width: "64px",
+			},
 		},
 		footer: {
 			position: "fixed",
-			left: "80px",
 			bottom: "40px",
 			fontSize: "18px",
 			padding: "16px",
 			color: "#FFFFFF",
 			"@media (min-width: 769px)": {
 				fontSize: "24px",
+        left: "80px",
 			},
 		},
 	};
