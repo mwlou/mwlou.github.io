@@ -1,0 +1,28 @@
+html,
+body {
+	margin: 0;
+	height: 100vh;
+	font-family: "Fira Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #fff;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+#root {
+	height: 100%;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	padding-inline-start: 24px;
+	unicode-bidi: isolate;
+	margin: 4px;
+}
