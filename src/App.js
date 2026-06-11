@@ -20,7 +20,7 @@ const useStyles = createUseStyles(() => {
 			left: "80px",
 			top: "60px",
 			"& h1": {
-				fontSize: "40px",
+				fontSize: "32px",
 				margin: 0,
 				paddingBottom: "12px",
 				"@media (min-width: 769px)": {
@@ -42,9 +42,12 @@ const useStyles = createUseStyles(() => {
 			position: "fixed",
 			left: "80px",
 			bottom: "40px",
-			fontSize: "24px",
+			fontSize: "18px",
 			padding: "16px",
 			color: "#FFFFFF",
+			"@media (min-width: 769px)": {
+				fontSize: "24px",
+			},
 		},
 	};
 });
